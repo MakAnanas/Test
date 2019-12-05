@@ -1,0 +1,29 @@
+.BottomBlock {
+  width: 100%;
+  background-color: lightsalmon;
+  border: 1px solid lightsalmon;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.BottomBlock .vk {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.BottomBlock .inst {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.BottomBlock .devart {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.BottomBlock .a1 {
+  margin: 3px 0px 0px 3px;
+  font-size: 20px;
+}

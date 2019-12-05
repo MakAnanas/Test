@@ -1,0 +1,75 @@
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+.full .pict1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: flex-end;
+    border:3px black solid;
+}
+.full .pict1 img {
+     width: 100%;
+}
+.half .pict2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+    align-items:flex-end;
+    border:3px black solid;
+}
+.half .pict2 img {
+    width: 100%;
+}
+.head .pict3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+    align-items: flex-end;
+    border:3px black solid;
+}
+.head .pict3 img{
+    width:100%;
+}
+.text {
+    background-color: rgb(217,211,203);
+    text-align: center;
+}
+.knopka {
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    background: rgb(245,157,121); /* фон кнопки */
+    padding: 10px;
+    text-align: center;
+    outline: none;
+} 
+.knopka:hover { background: rgb(232,95,76); } /*при наведении курсора мышки*/
+.knopka:active { background: rgb(152,15,0);} /*при нажатии */
+
+.DivKnopka {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media(max-width:320px){
+    .head .pict3 {
+        width: 300px;
+    }
+    .half .pict2 {
+        width: 300px;
+    }
+    .full .pict1 {
+        width: 300px;
+    }
+
+}

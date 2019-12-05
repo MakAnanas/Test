@@ -1,0 +1,39 @@
+body {
+    background: url(pict/fon.jpg);
+    background-size: 800px;
+    font-family: 'GOST type B';
+    margin:0;
+    /* width: 100%;
+    height: 100%; */
+}
+a {color:black;}
+/**/
+.TopBlock {
+    /* width: 100%; */
+    background-color: rgb(245,157,121);
+    border: 1px solid rgb(245,157,121);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 40px;
+}
+.TopBlock .content p{
+    margin:8px 0px 0px 19px;
+    font-size:20px;
+}
+.ikon img{
+    position:relative;
+    /* left:5px; */
+    top:-40px;
+    z-index:2;
+    border-radius:70px;
+    height:120px;
+    width:120px;
+}
+@media(max-width: 410px){
+    .TopBlock{
+      height:60px;
+    }
+  } 
