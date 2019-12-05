@@ -1,5 +1,5 @@
 .BottomBlock {
-  /* width: 100%; */
+  width: 100%;
   background-color: rgb(245,157,121);;
   border: 1px solid rgb(245,157,121);;
   display: flex;
@@ -33,7 +33,7 @@
   .BottomBlock .a1{
     font-size:15px;
   }
-  /* .BottomBlock{
+  .BottomBlock{
     width: 100%;
-  } */
+  }
 }
