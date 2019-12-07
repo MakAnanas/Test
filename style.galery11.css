@@ -29,6 +29,7 @@
     background-color:rgb(217,211,203);
     font-size:25px;
 } 
+
 @media(max-width:611px) and (min-width:413px){
     .container1 .pict1 img{
         width:500px;
