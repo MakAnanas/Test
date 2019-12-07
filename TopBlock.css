@@ -36,3 +36,8 @@ a {color:black;}
       height:60px;
     }
   } 
+@media(max-width: 410px){
+.TopBlock .content p{
+    font-size:15px;
+   }
+} 
