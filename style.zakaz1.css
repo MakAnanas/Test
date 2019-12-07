@@ -1,3 +1,4 @@
+/* стиль для главного блока */
 .display {
     display: flex;
     flex-direction: row;
@@ -44,16 +45,16 @@
     background-color: rgb(217,211,203);
     text-align: center;
 }
+/* стиль для кнопки */
 .knopka {
     text-decoration: none; /* убирать подчёркивание у ссылок */
     background: rgb(245,157,121); /* фон кнопки */
     padding: 10px;
     text-align: center;
-    outline: none;
+    outline: none; /*нет подчеркивания ссылки*/
 } 
 .knopka:hover { background: rgb(232,95,76); } /*при наведении курсора мышки*/
 .knopka:active { background: rgb(152,15,0);} /*при нажатии */
-
 .DivKnopka {
     margin-top: 20px;
     align-items: center;
@@ -61,6 +62,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
+/* Media Queries(верстка) */
 @media(max-width:320px){
     .head .pict3 {
         width: 300px;

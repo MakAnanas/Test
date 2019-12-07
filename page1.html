@@ -5,39 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Страничка художника</title>
-    <link href="style.page1.css" type="text/css" rel="stylesheet" />
-    <link href="TopBlock.css" type="text/css" rel="stylesheet" />
-    <link href="BottomBlock.css" type="text/css" rel="stylesheet" />
+    <link href="style.page1.css" type="text/css" rel="stylesheet" /> <!--стиль для основного блока -->
+    <link href="TopBlock.css" type="text/css" rel="stylesheet" /> <!--стиль для верхнего блока-->
+    <link href="BottomBlock.css" type="text/css" rel="stylesheet" /> <!--стиль для нижнего блока-->
 
-    <!-- <link href="MediaPage1.css" type="text/css" rel="stylesheet" /> -->
-
-    <link rel="shortcut icon" href="pict/ikon.png" type="image/png">
-
+    <link rel="shortcut icon" href="pict/ikon.png" type="image/png"> <!--иконка-->
 </head>
 <body>
-    <!-- верхний блок -->
+        <!-- верхний блок -->
     <div class="TopBlock"> 
         <div class="content">
             <p>Страничка художницы PoppyAN</p>
         </div>
+
         <div class="ikon">
-            <img src="pict/ikon.png" alt="" />
+            <img src="pict/ikon.png" alt="Иконка" title="Иконка"/>
         </div>
     </div>
     
         <!-- средний блок -->
     <div class="MainBlock">
-             <!--Кнопка-ссылка галереи  -->
+            <!--Кнопка-ссылка галереи  -->
         <div class="Galery">
             <div class="GalIkon">
-                <a href="galery11.html">
-                    <!-- при наведении мыши сменяется картинка -->
-                    <img src="pict/gal1.jpg" alt="Галерея" 
+                <a href="galery11.html" title="Галерея">
+                        <!-- при наведении мыши сменяется картинка -->
+                    <img src="pict/gal1.jpg" alt="Галерея" title="Галерея"
                         onmouseout="this.src='pict/gal1.jpg'"
                         onmouseover="this.src='pict/gal2.jpg'"/>
-                <div class="content">
-                    <h2>Галерея</h2>
-                </div>
+
+                    <div class="content">
+                        <h2>Галерея</h2>
+                    </div>
                 </a>
             </div>
         </div>
@@ -45,58 +44,64 @@
             <!-- Кнопка-ссылка магазина  -->
         <div class="Shop">
             <div class="ShopIkon">
-                <a href="zakaz1.html">
-                <!-- при наведении мыши сменяется картинка -->
-                    <img src="pict/zakk1.jpg" alt="Магазин"
+                <a href="zakaz1.html" title="Заказ">
+                        <!-- при наведении мыши сменяется картинка -->
+                    <img src="pict/zakk1.jpg" alt="Магазин" title="Магазин"
                         onmouseout="this.src='pict/zakk1.jpg'" 
                         onmouseover="this.src='pict/zakk2.jpg'"/>
-                <div class="content">
-                    <h2>Заказать</h2>
-                </div>
+
+                    <div class="content">
+                       <h2>Заказать</h2>
+                    </div>
                 </a>
             </div>
         </div> 
     </div>
     
-        <!-- нижний блок BottomBlock1-->
+        <!-- нижний блок -->
     <div class="BottomBlock BottomBlock1 ">
         <div class="vk">
             <div>
-                <img src="pict/vk.png" alt="" />
+                <img src="pict/vk.png" alt="ВК" title="ВК"/>
             </div>
-                <div class="a1">
-                    <a href="https://vk.com/pingvin_5c">ВКонтакте</a>
-                </div>
-        </div>
-        <div class="inst">
-                <div>
-                    <img src="pict/inst.png" alt="" />
-                </div>
-                <div class="a1">
-                    <a href="https://www.instagram.com/valmuean/">Instagram</a>
-                </div>
-            </div>
-            <div class="devart">
-            <div>
-                <img src="pict/devart.png" alt="" />
-            </div>
+
             <div class="a1">
-                <a href="https://www.deviantart.com/poppyan">DeviantArt</a>
+                <a href="https://vk.com/pingvin_5c" title="ВК">ВКонтакте</a>
+            </div>
+        </div>
+
+        <div class="inst">
+            <div>
+                <img src="pict/inst.png" alt="Инстаграм" title="Инстаграм" />
+            </div>
+
+            <div class="a1">
+                <a href="https://www.instagram.com/valmuean/" title="Инстаграм">Instagram</a>
+            </div>
+        </div>
+
+        <div class="devart">
+            <div>
+                <img src="pict/devart.png" alt="ДевиантАрт" title="ДевиантрАрт"/>
+            </div>
+
+            <div class="a1">
+                <a href="https://www.deviantart.com/poppyan" title="ДевиантАрт">DeviantArt</a>
             </div>
         </div>
     </div>
+        <!--футер-->
     <div class="BottomBlock1">
-    <footer>
+        <footer>
             <?xml version="1.0" encoding="utf-8"?>
-            <Nodes>
-                <FIO>☻Макаревич Настюшка Александровна </FIO>
-                <FAK>ИТ</FAK>
-                <SPEC> ПОИБМС</SPEC>
-                <GR> 8</GR>
-                <GOD> 2019☻</GOD>
-            </Nodes>
+                <Nodes>
+                    <NAME>☻Макаревич Настюшка Александровна </NAEM>
+                    <FACULTY>ИТ</FACULTY>
+                    <SPECIALTY> ПОИБМС</SPECIALTY>
+                    <GROUP> 8</GROUP>
+                    <YEAR> 2019☻</YEAR>
+                </Nodes>
         </footer>
     </div>
-    
 </body>
 </html>

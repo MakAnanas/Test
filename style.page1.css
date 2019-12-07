@@ -1,3 +1,4 @@
+/* стиль для общего блока */
 .MainBlock {
   display: flex;
   flex-direction: row;
@@ -9,12 +10,8 @@
   line-height: 10px;
   flex-wrap: wrap;
 }
+/* галерея */
 .MainBlock .Galery {
-  display: flex;
-  flex-direction: column;
-  
-}
-.MainBlock .Shop {
   display: flex;
   flex-direction: column;
 }
@@ -25,6 +22,11 @@
   height: 350px;
   align-items: flex-start;
 }
+/* магазинчик */
+.MainBlock .Shop {
+  display: flex;
+  flex-direction: column;
+}
 .MainBlock .ShopIkon img {
   display: flex;
   flex-direction: column;
@@ -32,28 +34,29 @@
   height: 350px;
   align-items: flex-start;
 }
+/* подписи */
 .MainBlock .content {
   display: flex;
   justify-content: center;
 }
+/* стиль для нижнего блока */
 .BottomBlock1 {
   position: fixed;
   bottom: 0;
   font-size:13px;
   width: 100%;
 }
-/* .fut{
-
-} */
-
+/* Media Queries(верстка) */
 @media(max-width:768px){
   .MainBlock{
     flex-direction:column;
   }
   .BottomBlock1{
     position: static;
+    background-color: rgb(217,211,203);
   }
-}  @media(max-width:320px){
+}
+@media(max-width:320px){
   .MainBlock .GalIkon img {
       width: 280px;
       height: 280px;
